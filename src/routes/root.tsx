@@ -1,9 +1,9 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
+import "./root.css";
 
-function App() {
+const Root = () => {
   // const [count, setCount] = useState(0)
 
   return (
@@ -32,6 +32,6 @@ function App() {
       <a className="read-the-docs" href="mailto: crachioloj@gmail.com" > crachioloj@gmail.com </a>
     </>
   )
-}
+};
 
-export default App
+export default Root;
