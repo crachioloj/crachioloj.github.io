@@ -4,11 +4,11 @@
 import "./root.css";
 
 const Root = () => {
-  // const [count, setCount] = useState(0)
+	// const [count, setCount] = useState(0)
 
-  return (
-    <>
-      {/* <div>
+	return (
+		<>
+			{/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -16,9 +16,9 @@ const Root = () => {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div> */}
-      <h1>This page is under construction.</h1>
-      <h1>Check back soon!</h1>
-      {/* <div className="card">
+			<h1>This page is under construction.</h1>
+			<h1>Check back soon!</h1>
+			{/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
@@ -26,12 +26,10 @@ const Root = () => {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div> */}
-      <p className="read-the-docs">
-        Joe Crachiolo
-      </p >
-      <a className="read-the-docs" href="mailto: crachioloj@gmail.com" > crachioloj@gmail.com </a>
-    </>
-  )
+			<p className="read-the-docs">Joe Crachiolo</p>
+			<p className="read-the-docs">crachioloj [at] gmail [dot] com</p>
+		</>
+	);
 };
 
 export default Root;

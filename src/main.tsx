@@ -12,10 +12,11 @@ const router = createBrowserRouter([
 		element: <Root />,
 		errorElement: <ErrorPage />,
 	},
-  {
-    path: "resume",
-    element: <Resume />,
-  }
+	{
+		path: "resume",
+		element: <Resume />,
+		errorElement: <ErrorPage />,
+	},
 ]);
 
 createRoot(document.getElementById("root")!).render(
